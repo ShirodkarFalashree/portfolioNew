@@ -18,7 +18,7 @@ const fileMap = {
 function App() {
   const [openFiles, setOpenFiles] = useState([]);
   const [activeFile, setActiveFile] = useState(null);
-  const [showExplorer, setShowExplorer] = useState(true);
+  const [showExplorer, setShowExplorer] = useState(false);
 
   const openFile = (fileName) => {
     if (!openFiles.includes(fileName)) {

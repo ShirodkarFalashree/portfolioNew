@@ -21,7 +21,7 @@ const Sidebar = ({ onFileIconClick, onFileClick }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answer, setAnswer] = useState("");
   const [answers, setAnswers] = useState([]);
-  const [isExplorerOpen, setIsExplorerOpen] = useState(true); // New state to track Explorer
+  const [isExplorerOpen, setIsExplorerOpen] = useState(false); // New state to track Explorer
 
   const questions = [
     "What is your name?",
@@ -113,8 +113,8 @@ const Sidebar = ({ onFileIconClick, onFileClick }) => {
           handleKeyPress={handleKeyPress}
           isLast={currentQuestionIndex === questions.length - 1}
           handleCloseConsole={handleCloseConsole}
-          // Dynamically change the console width based on the Explorer state
-          consoleWidth={isExplorerOpen ? "80%" : "100%"} // If Explorer is open, set console width to 80%, otherwise 100%
+          // consoleWidth={isExplorerOpen ? "80%" : "100%"} // If Explorer is open, set console width to 80%, otherwise 100%
+          consoleWidth={"100%"}
         />
       )}
     </div>
