@@ -5,7 +5,7 @@ const Explorer = ({ onFileClick }) => {
   const files = ['About.jsx', 'Projects.jsx', 'Experience.jsx'];
 
   return (
-    <div className="w-64 bg-[#252526] pt-2  h-[663px] font-mono">
+    <div className="w-64 bg-[#252526] pt-2  h-[900px] sm:h-[663px] font-mono">
       <h2 className="text-gray-300 mb-2 pl-2">EXPLORER</h2>
       <ul>
         {files.map((file) => (
