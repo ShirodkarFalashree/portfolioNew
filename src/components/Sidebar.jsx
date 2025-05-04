@@ -113,7 +113,6 @@ const Sidebar = ({ onFileIconClick, onFileClick }) => {
           handleKeyPress={handleKeyPress}
           isLast={currentQuestionIndex === questions.length - 1}
           handleCloseConsole={handleCloseConsole}
-          // consoleWidth={isExplorerOpen ? "80%" : "100%"} // If Explorer is open, set console width to 80%, otherwise 100%
           consoleWidth={"100%"}
         />
       )}
