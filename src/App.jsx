@@ -44,11 +44,11 @@ function App() {
         onFileIconClick={() => setShowExplorer(prev => !prev)}
         onFileClick={openFile}
       />
-      {showExplorer && (
+      {/* {showExplorer && (
         <div className="w-64">
           <Explorer onFileClick={openFile} />
         </div>
-      )}
+      )} */}
       <div className="flex flex-col flex-1">
         <Header
           openFiles={openFiles}
