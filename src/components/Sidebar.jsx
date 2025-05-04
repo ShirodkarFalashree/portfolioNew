@@ -69,7 +69,7 @@ const Sidebar = ({ onFileIconClick, onFileClick }) => {
   };
 
   return (
-    <div className="flex flex-col h-[900px] sm:h-[663px] font-mono">
+    <div className="flex flex-col h-screen font-mono">
       <div className="flex flex-col items-center bg-[#2d2d2d] text-white py-4 w-12 space-y-6 justify-between flex-1">
         <button
           onClick={onFileIconClick}

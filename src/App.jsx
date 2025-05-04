@@ -39,7 +39,7 @@ function App() {
 
     <div>
       <Navbar/>
-    <div className="flex h-[900px] sm:h-[663px] bg-[#1e1e1e] text-white overflow-hidden">
+    <div className="flex h-screen  bg-[#1e1e1e] text-white overflow-hidden">
       <Sidebar
         onFileIconClick={() => setShowExplorer(prev => !prev)}
         onFileClick={openFile}
