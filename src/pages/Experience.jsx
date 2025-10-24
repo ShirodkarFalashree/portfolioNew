@@ -6,7 +6,7 @@
 //      <h1 className="text-4xl  items-center text-center flex flex-col justify-center"> Experience </h1> <br />
 //      <div className='leading-9'>
 //      <h2 className="text-2xl font-semibold text-white/90">
-//              Website Developer Intern — <span className="italic">EduSwitch</span> 
+//              Website Developer Intern — <span className="italic">EduSwitch</span>
 //           </h2>
 //           <p className="text-white/60">January 2025 – July 2025</p>
 //           <ul className="list-disc ml-6 mt-2 ">
@@ -28,8 +28,7 @@
 
 // export default Experience;
 
-
-import React from 'react';
+import React from "react";
 
 const Experience = () => {
   return (
@@ -46,10 +45,12 @@ const Experience = () => {
           <p className="text-white/60">January 2025 – July 2025</p>
           <ul className="list-disc pl-6 mt-2 space-y-1">
             <li>
-              Working on websites using <strong>ASP.NET</strong>,{' '}
+              Working on websites using <strong>ASP.NET</strong>,{" "}
               <strong>JavaScript</strong>, and <strong>Azure</strong>.
             </li>
-            <li>Building responsive, secure, and performance-optimized frontends.</li>
+            <li>
+              Building responsive, secure, and performance-optimized frontends.
+            </li>
           </ul>
         </div>
 
@@ -59,16 +60,35 @@ const Experience = () => {
           </h2>
           <ul className="list-disc pl-6 mt-2 space-y-2">
             <li>
-              <strong>Hackathon 3.0</strong> – Participated in a student-driven innovation
-              event hosted by <em>GITS, DMCE Airoli</em>. Built a creative solution with a
-              strong emphasis on collaboration, teamwork, and impactful problem-solving.
-              Received a Certificate of Participation for enthusiastic involvement.
+              <strong>3rd Runner up in MINITHON hackathon</strong> – Conducted
+              by TADOMAL SHAHANI ENGINEERING COLLEGE, GradNest addresses the
+              common challenge students face when searching for clear,
+              comparable, and comprehensive information about on- or off-campus
+              accommodations. The problem is that critical details like pricing,
+              capacity, specific amenities (like AC or attached bathrooms), and
+              resident feedback are often scattered across multiple sources or
+              outdated PDF documents, making it impossible to confidently
+              compare options. This application solves that by creating a
+              single, centralized, and visually appealing hub that clearly
+              presents every piece of relevant data—from an overview on the main
+              page to detailed galleries, testimonials, and FAQs on the room's
+              dedicated page—allowing students to make fast, informed decisions
+              about where they will live.
             </li>
+<br />
             <li>
-              <strong>ScrollHacks by Scroll</strong> – Competed in a national-level
-              hackathon from <em>September 27–29</em>. Developed a tech-forward prototype in
-              a high-pressure, fast-paced environment, applying real-world development
-              principles to address critical challenges.
+              <strong>Hackathon 3.0</strong> – Participated in a student-driven
+              innovation event hosted by <em>GITS, DMCE Airoli</em>. Built a
+              creative solution with a strong emphasis on collaboration,
+              teamwork, and impactful problem-solving. Received a Certificate of
+              Participation for enthusiastic involvement.
+            </li> <br />
+            <li>
+              <strong>ScrollHacks by Scroll</strong> – Competed in a
+              national-level hackathon from <em>September 27–29</em>. Developed
+              a tech-forward prototype in a high-pressure, fast-paced
+              environment, applying real-world development principles to address
+              critical challenges.
             </li>
           </ul>
         </div>

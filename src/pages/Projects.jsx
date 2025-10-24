@@ -78,25 +78,42 @@ const projects = [
     link: 'https://github.com/ShirodkarFalashree/eScout-web',
   },
   {
+    title: 'FAVMedia',
+    description:
+      'FAVMedia is a professional web development and branding agency focused on helping businesses, startups, and individuals establish a strong digital presence. They specialize in creating SEO-optimized, mobile-responsive websites with attention to UI/UX design, branding, and performance.',
+    tech: ['React','TailwindCSS','GSAP'],
+    link: 'https://fav-media.vercel.app/',
+  },
+  {
     title: 'Authentication System',
     description:
       'Login using keystroke dynamics, voice recognition, gesture recognition for secure access.',
     tech: ['MERN', 'Tailwind CSS'],
     link: 'https://github.com/ShirodkarFalashree/authentication',
   },
-  {
-    title: 'Chess Web App',
-    description: 'Real-time multiplayer chess with board customization.',
-    tech: ['React', 'Socket.io', 'Node.js', 'Tailwind CSS'],
-    link: 'https://github.com/ShirodkarFalashree/Chessify',
-  },
+  
   {
     title: 'Two Good Co. Clone',
     description:
       'Website clone with captivating cursor animations and smooth scroll-based interactions using Locomotive Scroll, featuring dynamic visual effects and responsive transitions.',
     tech: ['JavaScript', 'Locomotive JS', 'GSAP'],
-    link: 'https://github.com/ShirodkarFalashree/two-good-clone',
+    link: 'https://two-good-clone-eight.vercel.app/',
   },
+  {
+    title: 'PhotoBooth',
+    description:
+      'Built a PhotoBooth web app using React and Tailwind CSS that allows users to capture photos directly from their device’s camera. Focused on clean UI, responsive design, and smooth user interactions.',
+    tech: ['ReactJS', 'TailwindCSS', 'GSAP'],
+    link: 'https://photobooth-fal.vercel.app/',
+  },
+  {
+    title: 'Product Showcase',
+    description:
+      'Stunning gallery-style layout to beautifully display any product — from tech to fashion to art. Great for portfolios or boutique brands.',
+    tech: ['ReactJs','TailwindCSS', 'GSAP'],
+    link: 'https://groomify-pink.vercel.app/',
+  },
+
   {
     title: 'Here Fashion',
     description:
@@ -109,6 +126,12 @@ const projects = [
     description: 'An elegant e-commerce platform tailored for a jewelry brand.',
     tech: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
     link: 'https://github.com/Avishkar68/FAVjewels',
+  },
+  {
+    title: 'Chess Web App',
+    description: 'Real-time multiplayer chess with board customization.',
+    tech: ['React', 'Socket.io', 'Node.js', 'Tailwind CSS'],
+    link: 'https://github.com/ShirodkarFalashree/Chessify',
   },
 ];
 
